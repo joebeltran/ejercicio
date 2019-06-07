@@ -12,14 +12,12 @@ var ejercicioStruct ={
 }
 
 router.get('/',(req,res,next)=>{
-
+    res.status(403).json({msj:"Not Implemented"});
 });// get
 
 router.post('/',(req,res,next)=>{
-
+    res.status(403).json({msj:"Not Implemented"});
 });// post
-
-
 
 
 module.exports = router;
